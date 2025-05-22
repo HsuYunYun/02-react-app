@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.calculator-display {
+  min-height: 40px;
+  margin-bottom: 12px;
+  background: #eee;
+  text-align: right;
+  padding: 8px;
+  font-size: 24px;
+}

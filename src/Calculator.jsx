@@ -28,7 +28,7 @@ export default function Calculator() {
 
   return (
     <div style={{ width: 220, margin: '2rem auto', border: '1px solid #ccc', borderRadius: 8, padding: 16 }}>
-      <div style={{ minHeight: 40, marginBottom: 12, background: '#eee', textAlign: 'right', padding: 8, fontSize: 24 }}>
+      <div className="calculator-display">
         {input || '0'}
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 50px)', gap: 8 }}>
