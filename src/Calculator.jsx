@@ -27,15 +27,15 @@ export default function Calculator() {
   }
 
   return (
-    <div style={{ width: 220, margin: '2rem auto', border: '1px solid #ccc', borderRadius: 8, padding: 16 }}>
+    <div className="calculator-container">
       <div className="calculator-display">
         {input || '0'}
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 50px)', gap: 8 }}>
+      <div className="calculator-buttons">
         {buttons.map((btn) => (
           <button
             key={btn}
-            style={{ fontSize: 18, padding: 10 }}
+            className="calculator-button"
             onClick={() => handleClick(btn)}
           >
             {btn}
